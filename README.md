@@ -1,2 +1,2 @@
 # BST_library
-repositorio per la libreria del binary search tree
+libreria di un binary search tree in c++
