@@ -40,6 +40,27 @@ return r;
 }
 
 
+Node* search(Node* root, int val)
+{
+    Node* current = root;
+    while(current!= nullptr)
+    {
+        if(current->data == val)
+        {
+            return current;
+        }
+        else if(val > current->data)
+        {
+            current = current->right_child;
+        }
+        else
+        {
+            current = current->left_child;
+        }
+    }
+    return nullptr;
+}
+
 
 int main()
 {
